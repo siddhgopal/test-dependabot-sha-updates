@@ -2,7 +2,8 @@ name: Test SHA Updates
 
 on:
   push:
-  workflow_dispatch:
+    branches:
+      - main 
 
 jobs:
   test:
@@ -12,4 +13,4 @@ jobs:
       
       # This is what Dependabot should update
       - uses: tj-actions/changed-files@e5b971c8c92a4e6e3c91e3d058951c6c8b9269a1 # v35.0.2
-      # ^ Dependabot should update to v46.0.5 automatically
+      # ^ Dependabot should update to v46.0.4 automatically
