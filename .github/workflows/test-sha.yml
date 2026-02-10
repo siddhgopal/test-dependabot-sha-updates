@@ -9,4 +9,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - uses: tj-actions/changed-files@823fcebdb31bb35fdf2229d9f769b400309430d0 # v46
+      - uses: tj-actions/changed-files@8cba46e29c11878d930bca7870bb54394d3e8b21 # v46
